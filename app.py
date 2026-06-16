@@ -21,7 +21,7 @@ import streamlit as st
 from features import prepare, add_features
 
 HERE = os.path.dirname(__file__)
-ART = os.path.join(HERE, "artifacts")
+ART = HERE
 
 st.set_page_config(
     page_title="Bank Churn Risk Intelligence",
