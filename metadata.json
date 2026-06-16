@@ -1,0 +1,38 @@
+{
+  "model": "GradientBoosting",
+  "roc_auc": 0.8672354943541385,
+  "threshold": 0.6002866952762489,
+  "accuracy": 0.845,
+  "precision": 0.6056644880174292,
+  "recall": 0.683046683046683,
+  "f1": 0.6420323325635104,
+  "confusion_matrix": [
+    [
+      1412,
+      181
+    ],
+    [
+      129,
+      278
+    ]
+  ],
+  "base_rate": 0.2037,
+  "naive_accuracy": 0.7963,
+  "importances": {
+    "Age": 0.12423972508718281,
+    "NumOfProducts": 0.09859343164427918,
+    "Geography": 0.016807639688995724,
+    "EngagementProduct": 0.013407783746766877,
+    "Balance": 0.01328986922207267,
+    "Gender": 0.0077523594472747705,
+    "IsActiveMember": 0.0072507021659565015,
+    "BalanceSalaryRatio": 0.005671850587104887,
+    "ZeroBalanceFlag": 0.0018407467560010772,
+    "ProductDensity": 0.0007020117189609598,
+    "CreditScore": 0.000318808793385128,
+    "Tenure": 0.0001060382416315564,
+    "HasCrCard": -9.99458626576466e-05,
+    "EstimatedSalary": -0.0002215620859687628,
+    "AgeTenureInteraction": -0.0008179982756253313
+  }
+}
